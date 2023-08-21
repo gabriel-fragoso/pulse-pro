@@ -622,6 +622,10 @@ header > img {
   .title-second-section-hidden {
     display: flex;
   }
+
+  .container-redirect {
+    padding: 30px;
+  }
 }
 
 @media (max-width: 580px) {
