@@ -422,11 +422,11 @@ header > img {
 }
 
 .image-bg {
-  background-image: url(./assets/bg-2.jpg);
+  background-image: url("./assets/bg-2.jpg");
 }
 
 .image-bg-2 {
-  background-image: url(./assets/bg-4.jpg);
+  background-image: url("./assets/bg-4.jpg");
 }
 
 .group-video {
@@ -509,7 +509,7 @@ header > img {
   color: #FFF; 
   font-weight: 900; 
   font-size: 18px; 
-  background-color: #0BB015; 
+  background-color: #6ab627; 
   width: 440px; 
   border: 0; 
   outline: 0; 
