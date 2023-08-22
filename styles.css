@@ -210,6 +210,15 @@ header > img {
   margin-top: 10px;
 }
 
+.natural {
+  font-size: 40px; 
+  line-height: 40px; 
+  color: #FFF; 
+  font-weight: 900;
+  text-align: center; 
+  width: 520px;
+}
+
 .button-to-experiment-2 {
   background-color: #6AB627;
   color: #FFF;
@@ -431,6 +440,7 @@ header > img {
 
 .group-video {
   max-width: 50%;
+  min-width: 500px;
   width: 800px;
 }
 
@@ -517,6 +527,10 @@ header > img {
   border-radius: 50px;
 }
 
+.image-section-test {
+  width: 400px;
+}
+
 @keyframes zoomInOut {
   0%, 100% {
     transform: scale(1);
@@ -543,6 +557,8 @@ header > img {
 
   .group-video {
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
 
   .second-section > div {
@@ -643,6 +659,12 @@ header > img {
   }
   .faq-page, .faq-body {
     width: 96%;
+  }
+  .natural {
+    width: 100%;
+  }
+  .image-section-test {
+    width: 100%;
   }
 }
 
